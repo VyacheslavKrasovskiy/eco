@@ -11,7 +11,7 @@
     $mail->IsHTML(true);
 
     $mail->setFrom('wkrasowsky@gmail.com', 'itsme');
-    $mail->addAddress('vkrasovskiy@edoperator.ru');
+    $mail->addAddress('v.krasovskiy@edoperator.ru');
     $mail->Subject = 'HiHiHI';
 
     $body = '<h1>HYHYHY</h1>';
